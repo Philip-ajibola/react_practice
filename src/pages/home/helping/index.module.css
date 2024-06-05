@@ -1,0 +1,73 @@
+.motherDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f5f7fa;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.p1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Arial Black';
+    margin-bottom: 0
+}
+.p2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Arial Black';
+    color: #4caf4f;
+    margin-bottom: 0;
+    margin-top: 0
+}
+.p3{
+    margin-bottom: 0
+}
+.secondDiv1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.pictureDiv{
+display: inline-block;
+}
+.pictureDiv1{
+    display: inline-block;
+}
+.clientSection3{
+    margin-right: 70px;
+}
+.paragraph1{
+    font-family: Arial;
+    font-size: 29px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.paragraph2{
+    margin-top: 0px;
+}
+@media only screen and (max-width: 728px){
+    .motherDiv{
+        flex-direction: column;
+    }
+    .p1,.p2{
+        font-size: 20px;
+    }
+    .secondDiv1{
+        width: 80%;
+    }
+    .paragraph1{
+        font-size: 24px;
+    }
+    .clientSection3{
+        display:flex;
+        margin-right: 15px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}
